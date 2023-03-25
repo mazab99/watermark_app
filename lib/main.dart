@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisSize: MainAxisSize.max,
             children: const [
               Expanded(child: ImageEditPanel()),
+
               Expanded(child: ImageCanvas()),
             ],
           ),
